@@ -1,0 +1,18 @@
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/racc-1.7.2/ext/racc/cparse
+/home/kikluz/.rbenv/versions/2.7.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/racc-1.7.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1kya1hd sitelibdir\=./.gem.20231101-12576-1kya1hd clean
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/racc-1.7.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1kya1hd sitelibdir\=./.gem.20231101-12576-1kya1hd
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/racc-1.7.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1kya1hd sitelibdir\=./.gem.20231101-12576-1kya1hd install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20231101-12576-1kya1hd/racc
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/racc-1.7.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1kya1hd sitelibdir\=./.gem.20231101-12576-1kya1hd clean

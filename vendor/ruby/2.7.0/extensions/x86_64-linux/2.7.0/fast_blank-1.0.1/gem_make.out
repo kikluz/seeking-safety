@@ -1,0 +1,18 @@
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+/home/kikluz/.rbenv/versions/2.7.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-ln1hzv sitelibdir\=./.gem.20231101-12576-ln1hzv clean
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-ln1hzv sitelibdir\=./.gem.20231101-12576-ln1hzv
+compiling fast_blank.c
+linking shared-object fast_blank.so
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-ln1hzv sitelibdir\=./.gem.20231101-12576-ln1hzv install
+/usr/bin/install -c -m 0755 fast_blank.so ./.gem.20231101-12576-ln1hzv
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-ln1hzv sitelibdir\=./.gem.20231101-12576-ln1hzv clean

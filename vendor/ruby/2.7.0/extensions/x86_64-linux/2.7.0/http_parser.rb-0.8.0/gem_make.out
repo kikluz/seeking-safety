@@ -1,0 +1,19 @@
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/home/kikluz/.rbenv/versions/2.7.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1qcqitb sitelibdir\=./.gem.20231101-12576-1qcqitb clean
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1qcqitb sitelibdir\=./.gem.20231101-12576-1qcqitb
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1qcqitb sitelibdir\=./.gem.20231101-12576-1qcqitb install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20231101-12576-1qcqitb
+
+current directory: /home/kikluz/development/personal/middleman/seekinf-safety/vendor/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231101-12576-1qcqitb sitelibdir\=./.gem.20231101-12576-1qcqitb clean
