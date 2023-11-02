@@ -17,3 +17,4 @@ gem  "nokogiri"
 gem 'middleman-compass', '>= 4.0.0'
 gem 'byebug'
 gem 'redcarpet'
+gem 'htmlbeautifier'
