@@ -131,6 +131,7 @@ code {
 // blockquote styles
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote {
+  text-align: center;
   font-size: 1.4em;
   width: 60%;
   margin: 50px auto;
@@ -138,7 +139,7 @@ blockquote {
   font-style: italic;
   color: #555555;
   padding: 1.2em 30px 1.2em 75px;
-  border-left: 8px solid #78c0a8;
+  border-left: 8px solid skyblue;
   line-height: 1.6;
   position: relative;
   background: #ededed;
@@ -147,7 +148,7 @@ blockquote {
 blockquote::before {
   font-family: Arial;
   content: "\201C";
-  color: #78c0a8;
+  color: skyblue;
   font-size: 4em;
   position: absolute;
   left: 10px;
@@ -159,9 +160,21 @@ blockquote::after {
 }
 
 blockquote span {
+  font-size: 0.9rem;
   display: block;
   color: #333333;
   font-style: normal;
   font-weight: bold;
   margin-top: 1em;
+}
+.fade {
+  border-width: 0 0 1px;
+  $color: skyblue;
+  color: $color;
+  border-image: linear-gradient(
+    90deg,
+    rgba($color, 0),
+    rgba($color, 1) 50%,
+    rgba($color, 0) 100%) 0 0 100%;
+  border-style: solid;
 }

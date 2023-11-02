@@ -1,0 +1,15 @@
+current directory: /home/kikluz/development/personal/middleman/seeking-safety/vendor/ruby/2.6.0/gems/racc-1.7.2/ext/racc/cparse
+/home/kikluz/.rbenv/versions/2.6.5/bin/ruby -I /home/kikluz/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20231102-41333-1ig4vqz.rb extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/middleman/seeking-safety/vendor/ruby/2.6.0/gems/racc-1.7.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/kikluz/development/personal/middleman/seeking-safety/vendor/ruby/2.6.0/gems/racc-1.7.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/kikluz/development/personal/middleman/seeking-safety/vendor/ruby/2.6.0/gems/racc-1.7.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20231102-41333-r509v9/racc
