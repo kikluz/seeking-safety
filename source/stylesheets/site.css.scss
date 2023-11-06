@@ -178,3 +178,20 @@ blockquote span {
     rgba($color, 0) 100%) 0 0 100%;
   border-style: solid;
 }
+
+// table style 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
