@@ -7,7 +7,9 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
 }
 #navbar {
@@ -174,21 +176,24 @@ blockquote span {
   $color: skyblue;
   color: $color;
   border-image: linear-gradient(
-    90deg,
-    rgba($color, 0),
-    rgba($color, 1) 50%,
-    rgba($color, 0) 100%) 0 0 100%;
+      90deg,
+      rgba($color, 0),
+      rgba($color, 1) 50%,
+      rgba($color, 0) 100%
+    )
+    0 0 100%;
   border-style: solid;
 }
 
-// table style 
+// table style
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -206,3 +211,30 @@ tr:nth-child(even) {
 //   max-width: 300px;
 //   margin: 0 auto;
 // }
+
+/*Floating Back-To-Top Button*/
+.scroll-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+// to hide the button when page first loaded
+.scroll-container:before {
+  content: "";
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+// fixed to right bottom of page
+.scroll-container a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: skyblue;
+  padding: 5px;
+}
