@@ -207,10 +207,14 @@ tr:nth-child(even) {
   padding: 20px;
   text-align: center;
 }
-// img {
-//   max-width: 300px;
-//   margin: 0 auto;
-// }
+.cognitive-triad img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300PX;
+  border: 3px solid skyblue;
+  padding: 10px;
+}
 
 /*Floating Back-To-Top Button*/
 .scroll-container {

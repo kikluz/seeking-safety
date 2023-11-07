@@ -42,7 +42,7 @@ configure :build do
 	set :relative_links, true
 	activate :minify_css
 	activate :minify_javascript
-	activate :asset_hash
+	activate :asset_hash, :exts => ['.css', '.png', '.jpg', '.gif']
 	
 	
 	# Relative assets needed to deploy to Github Pages
@@ -50,6 +50,7 @@ configure :build do
 	# Name of the project where you working on
 	set :site_url, "seeking-safety"
 end
+
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
