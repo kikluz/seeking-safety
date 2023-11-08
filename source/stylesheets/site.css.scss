@@ -251,3 +251,17 @@ tr:nth-child(even) {
   display: inline-block;
   
 }
+
+.boundaries-checkList {
+    li a:before
+  {
+      content: "\2610";
+      margin-right:5px;
+  }
+
+  li a:active:before
+  {
+      content: "\2611";
+      margin-right:5px;
+  }
+}
