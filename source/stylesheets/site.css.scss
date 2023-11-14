@@ -208,10 +208,10 @@ tr:nth-child(even) {
   text-align: center;
 }
 .cognitive-triad img {
-   display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300PX;
+  width: 300px;
   border: 3px solid skyblue;
   padding: 10px;
 }
@@ -244,23 +244,21 @@ tr:nth-child(even) {
 }
 .priorities-ptsd-section {
   border: solid black;
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 .priorities-ptsd li {
-  display: inline-block; 
+  display: inline-block;
 }
 
 .boundaries-checkList {
-    li a:before
-  {
-      content: "\2610";
-      margin-right:5px;
+  li a:before {
+    content: "\2610";
+    margin-right: 5px;
   }
 
-  li a:active:before
-  {
-      content: "\2611";
-      margin-right:5px;
+  li a:active:before {
+    content: "\2611";
+    margin-right: 5px;
   }
 }
